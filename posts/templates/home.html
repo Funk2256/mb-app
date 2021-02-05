@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+<h1> Message board homepage</h1>
+    {% for post in all_posts_list %}
+        <p><hr>{{ post.text }}</hr></p>
+    {% endfor %}}
+
+</body>
+</html>
